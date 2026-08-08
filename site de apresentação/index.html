@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aster Bela — Elegância Tropical</title>
+  <meta name="description" content="Aster Bela: moda feminina brasileira que une o conforto do algodão à fluidez do luxo. Peças de verão feitas à mão, entregues para todo o Brasil." />
+  <meta name="theme-color" content="#d15c68" />
+
+  <!-- Open Graph / redes sociais -->
+  <meta property="og:title" content="Aster Bela — Elegância Tropical" />
+  <meta property="og:description" content="Moda feminina brasileira, do verão ao luxo. Peças exclusivas, feitas à mão." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Acelera a conexão com o CDN das imagens -->
+  <link rel="preconnect" href="https://images.unsplash.com" />
+
+  <!-- Favicon (SVG inline, sem dependência externa) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23d15c68'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='16' fill='%23faf5ee' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=Manrope:wght@300;400;500;600;700&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet" />
+
+  <!-- ?v= força o navegador a buscar a versão nova quando você editar o CSS.
+       Ao publicar uma alteração, incremente o número. -->
+  <link rel="stylesheet" href="assets/css/tokens.css?v=10" />
+  <link rel="stylesheet" href="assets/css/main.css?v=10" />
+
+  <!-- Dados estruturados: ajuda o Google a exibir a marca corretamente -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ClothingStore",
+    "name": "Aster Bela",
+    "description": "Moda feminina brasileira que une o conforto do algodão à fluidez do luxo.",
+    "slogan": "Elegância Tropical",
+    "email": "contato@asterbela.com.br",
+    "telephone": "+55-71-93618-1742",
+    "address": { "@type": "PostalAddress", "addressLocality": "Salvador", "addressRegion": "BA", "addressCountry": "BR" },
+    "sameAs": ["https://instagram.com/asterbela", "https://tiktok.com/@asterbela"]
+  }
+  </script>
+</head>
+<body>
+  <a href="#conteudo" class="skip-link">Pular para o conteúdo</a>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ══════════ NAV ══════════ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#topo" class="brand" aria-label="Aster Bela — início">
+        <svg class="brand__spark" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+          <path fill="currentColor" d="M12 0c.5 6 2 7.5 8 8-6 .5-7.5 2-8 8-.5-6-2-7.5-8-8 6-.5 7.5-2 8-8z"/>
+        </svg>
+        <span class="brand__name">Aster<em>Bela</em></span>
+      </a>
+
+      <nav class="nav__links" id="navLinks" aria-label="Navegação principal">
+        <a href="#marca">A marca</a>
+        <a href="#lookbook">Lookbook</a>
+        <a href="#historia">História</a>
+        <a href="#contato">Contato</a>
+        <a href="https://wa.me/5571936181742" class="nav__cta" target="_blank" rel="noopener">Fale conosco</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+  <!-- ══════════ HERO ══════════ -->
+  <section class="hero" id="topo">
+    <div class="hero__media" data-parallax>
+      <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1920&q=80"
+           alt="Mulher com vestido tropical à beira de uma piscina, luz de fim de tarde"
+           fetchpriority="high" decoding="async" />
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="grain" aria-hidden="true"></div>
+
+    <div class="hero__inner">
+      <p class="eyebrow eyebrow--light reveal" data-reveal data-cms="hero.eyebrow">Coleção Verão 2024</p>
+      <h1 class="hero__title reveal" data-reveal data-reveal-delay="1">
+        <span data-cms="hero.title">A essência da</span><br /><span class="ital" data-cms="hero.title_accent">elegância tropical</span>
+      </h1>
+      <p class="hero__lead reveal" data-reveal data-reveal-delay="2" data-cms="hero.lead">
+        Inspirada no calor vibrante e na sofisticação natural da mulher brasileira —
+        peças exclusivas que unem o conforto do algodão à fluidez do luxo.
+      </p>
+      <div class="hero__cta reveal" data-reveal data-reveal-delay="3">
+        <a href="#lookbook" class="btn btn--brand">Ver a coleção <span class="btn__arrow" aria-hidden="true">→</span></a>
+        <a href="#lookbook" class="btn btn--outline-light">Explorar o lookbook</a>
+      </div>
+    </div>
+
+    <p class="hero__caption" aria-hidden="true">Editorial Verão · Litoral da Bahia</p>
+    <a href="#marca" class="hero__scroll" aria-label="Rolar para baixo">
+      <span class="hero__scroll-line"></span>
+      <small>role</small>
+    </a>
+  </section>
+
+  <!-- ══════════ FAIXA DE VALORES ══════════ -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <span>Feito à mão no Brasil</span><i></i>
+      <span>Tecidos leves e frescos</span><i></i>
+      <span>Peças em tiragem limitada</span><i></i>
+      <span>Entrega para todo o país</span><i></i>
+      <span>Feito à mão no Brasil</span><i></i>
+      <span>Tecidos leves e frescos</span><i></i>
+      <span>Peças em tiragem limitada</span><i></i>
+      <span>Entrega para todo o país</span><i></i>
+    </div>
+  </div>
+
+  <!-- ══════════ 01 · A MARCA ══════════ -->
+  <section class="manifesto" id="marca">
+    <div class="manifesto__inner">
+      <p class="section-num reveal" data-reveal>01 — A marca</p>
+      <h2 class="manifesto__text reveal" data-reveal>
+        Moda que veste <em>sol, mar</em> e a sua melhor versão. Cada peça acompanha a
+        mulher que carrega o verão dentro de si — do café à beira-mar ao jantar que
+        promete <em>uma boa história</em>.
+      </h2>
+    </div>
+  </section>
+
+  <!-- ══════════ 02 · LOOKBOOK ══════════ -->
+  <section class="look" id="lookbook">
+    <div class="look__head">
+      <div>
+        <p class="section-num reveal" data-reveal>02 — Lookbook</p>
+        <h2 class="h2 reveal" data-reveal>A galeria <em>Aster&nbsp;Bela</em></h2>
+      </div>
+      <p class="look__sub reveal" data-reveal>
+        Um recorte da coleção. Clique para ver cada peça de perto.
+      </p>
+    </div>
+
+    <div class="look__marquee reveal" data-reveal id="lookMarquee">
+      <!-- Linha A — rola para a esquerda -->
+      <div class="look__row look__row--a">
+        <div class="look__track">
+          <figure class="look__cell" role="button" tabindex="0" aria-label="Ampliar foto"><img src="https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=700&q=80" alt="Vestido floral vermelho sobre fundo amarelo" loading="lazy" /></figure>
+          <figure class="look__cell look__cell--wide" role="button" tabindex="0" aria-label="Ampliar foto"><img src="https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=900&q=80" alt="Vestido fluido em tom pêssego" loading="lazy" /></figure>
+          <figure class="look__cell" role="button" tabindex="0" aria-label="Ampliar foto"><img src="https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=700&q=80" alt="Vestido de verão em poás" loading="lazy" /></figure>
+          <figure class="look__cell" role="button" tabindex="0" aria-label="Ampliar foto"><img src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=700&q=80" alt="Blusa ombro a ombro em tom vinho" loading="lazy" /></figure>
+          <figure class="look__cell look__cell--wide" role="button" tabindex="0" aria-label="Ampliar foto"><img src="https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=900&q=80" alt="Look branco com estampa de flores" loading="lazy" /></figure>
+          <figure class="look__cell" role="button" tabindex="0" aria-label="Ampliar foto"><img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=700&q=80" alt="Look de verão sobre fundo amarelo" loading="lazy" /></figure>
+        </div>
+      </div>
+      <!-- Linha B — rola para a direita -->
+      <div class="look__row look__row--b">
+        <div class="look__track">
+          <figure class="look__cell look__cell--wide" role="button" tabindex="0" aria-label="Ampliar foto"><img src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=900&q=80" alt="Vestido branco de babados" loading="lazy" /></figure>
+          <figure class="look__cell" role="button" tabindex="0" aria-label="Ampliar foto"><img src="https://images.unsplash.com/photo-1495385794356-15371f348c31?auto=format&fit=crop&w=700&q=80" alt="Macacão elegante em tom turquesa" loading="lazy" /></figure>
+          <figure class="look__cell" role="button" tabindex="0" aria-label="Ampliar foto"><img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=700&q=80" alt="Calça fluida em tom pêssego" loading="lazy" /></figure>
+          <figure class="look__cell look__cell--wide" role="button" tabindex="0" aria-label="Ampliar foto"><img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=80" alt="Look de verão com óculos de sol" loading="lazy" /></figure>
+          <figure class="look__cell" role="button" tabindex="0" aria-label="Ampliar foto"><img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80" alt="Look editorial listrado" loading="lazy" /></figure>
+          <figure class="look__cell" role="button" tabindex="0" aria-label="Ampliar foto"><img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=700&q=80" alt="Retrato de verão ao ar livre" loading="lazy" /></figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ 03 · HISTÓRIA ══════════ -->
+  <section class="story" id="historia">
+    <div class="story__inner">
+      <figure class="story__media reveal" data-reveal="left">
+        <img src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&w=1000&q=80" alt="Interior do ateliê Aster Bela, com araras de roupas e plantas" />
+        <figcaption>Nosso ateliê · Salvador, BA</figcaption>
+      </figure>
+
+      <div class="story__text">
+        <p class="section-num reveal" data-reveal>03 — Nossa história</p>
+        <h2 class="h2 reveal" data-reveal>Nascemos para celebrar a <em>mulher brasileira</em></h2>
+        <p class="story__p reveal" data-reveal>
+          A Aster Bela nasceu do encontro entre a elegância atemporal e a energia do
+          clima tropical. Cada peça é selecionada com cuidado para que você se sinta
+          confiante, sofisticada e pronta para brilhar — em qualquer ocasião.
+        </p>
+
+        <ul class="feats">
+          <li class="feats__item reveal" data-reveal>
+            <span class="feats__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 6h11v9H3z"/><path d="M14 9h4l3 3v3h-7z"/><circle cx="7" cy="18" r="1.6"/><circle cx="17.5" cy="18" r="1.6"/>
+              </svg>
+            </span>
+            <div><strong>Entregamos para todo o Brasil</strong><small>Da nossa mesa de corte ao seu closet.</small></div>
+          </li>
+          <li class="feats__item reveal" data-reveal>
+            <span class="feats__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M11 20C6 20 4 15 4 11c5 0 9 1 11 5"/><path d="M20 4c0 7-3 12-9 13"/>
+              </svg>
+            </span>
+            <div><strong>Curadoria de tecidos leves</strong><small>Materiais que respiram com você no calor.</small></div>
+          </li>
+          <li class="feats__item reveal" data-reveal>
+            <span class="feats__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3l7 3v5c0 4.2-2.9 7.6-7 8.6C7.9 18.6 5 15.2 5 11V6z"/><path d="M9.2 12l2 2 3.6-3.8"/>
+              </svg>
+            </span>
+            <div><strong>Feito à mão, com garantia</strong><small>Qualidade e acabamento em cada detalhe.</small></div>
+          </li>
+        </ul>
+
+        <p class="signature reveal" data-reveal>
+          <span class="signature__hand">Bela</span>
+          <span class="signature__role">Fundadora · Aster Bela</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ DEPOIMENTOS ══════════ -->
+  <section class="voices" aria-label="Depoimentos de clientes">
+    <div class="voices__inner">
+      <span class="voices__quote" aria-hidden="true">&ldquo;</span>
+      <blockquote class="voices__lead reveal" data-reveal>
+        <p>Me senti elegante a festa inteira — e confortável do começo ao fim. Foi a
+        primeira vez que uma peça entendeu meu corpo e o calor daqui.</p>
+        <cite>Marina R. · Salvador, BA</cite>
+      </blockquote>
+
+      <div class="voices__row" data-cms-list="testimonials">
+        <figure class="voice reveal" data-reveal>
+          <p>“O caimento do vestido Marés é impecável. Já é a minha terceira peça da marca.”</p>
+          <cite>Juliana P. · Recife</cite>
+        </figure>
+        <figure class="voice reveal" data-reveal>
+          <p>“Chegou rápido e ainda mais bonito que nas fotos. O tecido é leve de verdade.”</p>
+          <cite>Camila S. · São Paulo</cite>
+        </figure>
+        <figure class="voice reveal" data-reveal>
+          <p>“Recebo elogios toda vez que uso. É elegância sem esforço, do jeito que eu queria.”</p>
+          <cite>Fernanda L. · Trancoso, BA</cite>
+        </figure>
+      </div>
+
+      <!-- Envio de depoimento pela cliente -->
+      <div class="share">
+        <button class="share__open btn btn--outline-light" id="shareOpen" type="button">
+          Deixar o meu depoimento
+        </button>
+
+        <form class="share__form" id="shareForm" hidden novalidate>
+          <div class="share__row">
+            <label class="share__field">
+              <span>Seu nome</span>
+              <input name="name" required maxlength="60" placeholder="Como quer ser identificada" />
+            </label>
+            <label class="share__field">
+              <span>Cidade <small>(opcional)</small></span>
+              <input name="city" maxlength="60" placeholder="Salvador, BA" />
+            </label>
+          </div>
+
+          <label class="share__field">
+            <span>Sua avaliação</span>
+            <div class="stars" id="starPicker" role="radiogroup" aria-label="Nota de 1 a 5">
+              <button type="button" class="star is-on" data-value="1" aria-label="1 estrela">★</button>
+              <button type="button" class="star is-on" data-value="2" aria-label="2 estrelas">★</button>
+              <button type="button" class="star is-on" data-value="3" aria-label="3 estrelas">★</button>
+              <button type="button" class="star is-on" data-value="4" aria-label="4 estrelas">★</button>
+              <button type="button" class="star is-on" data-value="5" aria-label="5 estrelas">★</button>
+            </div>
+            <input type="hidden" name="rating" value="5" />
+          </label>
+
+          <label class="share__field">
+            <span>Seu depoimento</span>
+            <textarea name="text" required rows="4" minlength="15" maxlength="600"
+              placeholder="Conte como foi a sua experiência com a peça…"></textarea>
+          </label>
+
+          <!-- Campo-armadilha anti-robô: invisível para pessoas. -->
+          <div class="share__trap" aria-hidden="true">
+            <label>Não preencha este campo
+              <input type="text" name="website" tabindex="-1" autocomplete="off" />
+            </label>
+          </div>
+
+          <p class="share__msg" id="shareMsg" hidden></p>
+          <button type="submit" class="btn btn--brand" id="shareSubmit">Enviar depoimento</button>
+          <small class="share__note">Seu depoimento passa por uma revisão antes de aparecer no site.</small>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ CTA ══════════ -->
+  <section class="cta" id="contato">
+    <div class="cta__inner reveal" data-reveal>
+      <p class="section-num section-num--center">Vamos conversar</p>
+      <h2 class="cta__title">Pronta para renovar o seu <em>closet</em>?</h2>
+      <p class="cta__text" data-cms-block="coupon">
+        Use o cupom <span class="coupon" data-cms="coupon.code">CHEGUEI</span> e ganhe
+        <strong data-cms="coupon.discount_text">5% de desconto</strong> no seu primeiro pedido. Fale com a gente pelo WhatsApp.
+      </p>
+      <div class="cta__actions">
+        <a href="https://wa.me/5571936181742?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20usar%20o%20cupom%20CHEGUEI." class="btn btn--brand btn--lg" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 00-8.5 15.3L2 22l4.8-1.4A10 10 0 1012 2zm0 18a8 8 0 01-4.1-1.1l-.3-.2-2.8.8.8-2.7-.2-.3A8 8 0 1112 20zm4.4-5.8c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1a6.5 6.5 0 01-3.2-2.8c-.1-.2 0-.4.1-.5l.4-.5.2-.4v-.4l-.8-1.9c-.2-.5-.4-.4-.5-.4h-.5a1 1 0 00-.7.3c-.3.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.8 2.8 4.4 3.8 1.6.6 2.2.7 3 .5.5-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1l-.4-.2z"/></svg>
+          Fale conosco no WhatsApp
+        </a>
+        <a href="https://instagram.com/asterbela" class="btn btn--outline btn--lg" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.6"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+          Siga no Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- ══════════ FOOTER ══════════ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <a href="#topo" class="brand brand--footer" aria-label="Aster Bela">
+          <svg class="brand__spark" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+            <path fill="currentColor" d="M12 0c.5 6 2 7.5 8 8-6 .5-7.5 2-8 8-.5-6-2-7.5-8-8 6-.5 7.5-2 8-8z"/>
+          </svg>
+          <span class="brand__name">Aster<em>Bela</em></span>
+        </a>
+        <p>Levando o estilo tropical e a elegância feminina para todos os cantos do Brasil.</p>
+      </div>
+      <nav class="footer__col" aria-label="Links">
+        <h4>Navegação</h4>
+        <a href="#topo">Início</a>
+        <a href="#historia">Nossa história</a>
+        <a href="#lookbook">Lookbook</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <nav class="footer__col" aria-label="Redes sociais">
+        <h4>Social</h4>
+        <a href="https://wa.me/5571936181742" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="https://instagram.com/asterbela" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://tiktok.com/@asterbela" target="_blank" rel="noopener">TikTok</a>
+      </nav>
+      <div class="footer__col">
+        <h4>Contato</h4>
+        <a href="mailto:contato@asterbela.com.br">contato@asterbela.com.br</a>
+        <a href="tel:+5571936181742">+55 (71) 93618-1742</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span data-year>2024</span> Aster Bela · Elegância Tropical. Todos os direitos reservados.</span>
+      <span class="footer__made">Feito à mão, no Brasil.</span>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flutuante -->
+  <a href="https://wa.me/5571936181742" class="wa" target="_blank" rel="noopener" aria-label="Fale conosco no WhatsApp">
+    <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true">
+      <path fill="currentColor" d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.2 1.6 6L4 29l8.2-1.6c1.7.9 3.7 1.4 5.8 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.8 0-3.6-.5-5.1-1.4l-.4-.2-4.9 1 1-4.7-.3-.4c-1-1.6-1.5-3.4-1.5-5.3C4.8 9.3 9.8 4.8 16 4.8S27.2 9.3 27.2 15 22.2 24.8 16 24.8zm6.1-7.8c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2-.2.3-.9 1.1-1.1 1.3-.2.2-.4.2-.7.1-1.8-.9-3-1.6-4.2-3.6-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.6s-.8-1.9-1-2.6c-.3-.7-.6-.6-.8-.6h-.7c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.4 1.4 3.6c.2.2 2.5 3.8 6 5.3 2.2.9 3 1 4.1.9.7-.1 2-.8 2.3-1.6.3-.8.3-1.5.2-1.6-.1-.2-.3-.2-.6-.4z"/>
+    </svg>
+  </a>
+
+  <!-- config.js SEM ?v= de propósito: é o arquivo que você edita, e uma versão
+       fixa faria o navegador servir a cópia antiga depois da sua alteração. -->
+  <script src="config.js"></script>
+  <script src="assets/js/main.js?v=8" defer></script>
+  <script src="assets/js/content.js?v=8" defer></script>
+</body>
+</html>

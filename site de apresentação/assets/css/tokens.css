@@ -1,0 +1,68 @@
+/* ============================================================
+   ASTER BELA — Design Tokens
+   Fonte única da verdade para cores, tipografia e espaçamento.
+   Paleta derivada da identidade visual da marca (logo coral-rosé).
+   ============================================================ */
+:root {
+  /* ---- Cor: marca ---- */
+  --brand:        #d15c68;   /* coral-rosé da logo */
+  --brand-600:    #c14f5b;
+  --brand-700:    #a8434f;
+  --brand-tint:   #f6e2e0;
+
+  /* ---- Cor: profundidade ---- */
+  --plum:         #5e2634;   /* ameixa profunda p/ seções escuras */
+  --plum-900:     #3d1822;
+
+  /* ---- Cor: neutros quentes ---- */
+  --paper:        #fffdfa;
+  --cream:        #faf5ee;
+  --cream-2:      #f3ebdf;
+  --sand:         #ece2d2;
+
+  /* ---- Cor: acento ---- */
+  --gold:         #b1854e;
+  --gold-soft:    #cba876;
+  /* Dourado escuro para texto pequeno sobre fundo claro: o --gold dá 3.1:1
+     e reprova no WCAG AA. Este dá 5.2:1. */
+  --gold-deep:    #846134;
+
+  /* ---- Cor: texto ---- */
+  --ink:          #2a211f;
+  --ink-soft:     #6f635c;
+  --ink-faint:    #9a8f88;
+  --on-dark:      #f7ede2;
+  --on-dark-soft: rgba(247,237,226,.68);
+
+  /* ---- Tipografia ---- */
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-sans:    "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-script:  "Mrs Saint Delafield", cursive;
+
+  /* escala fluida */
+  --fs-eyebrow: .72rem;
+  --fs-body:    1rem;
+  --fs-lead:    clamp(1.15rem, 1.6vw, 1.4rem);
+  --fs-h2:      clamp(2rem, 4.6vw, 3.4rem);
+  --fs-h1:      clamp(2.7rem, 7vw, 5.4rem);
+
+  /* ---- Espaçamento / layout ---- */
+  --maxw:      1200px;
+  --maxw-text: 62ch;
+  --gutter:    clamp(1.2rem, 4vw, 3.2rem);
+  --section-y: clamp(5rem, 11vw, 9.5rem);
+
+  /* ---- Forma ---- */
+  --radius:    16px;
+  --radius-s:  10px;
+  --radius-pill: 100px;
+
+  /* ---- Movimento ---- */
+  --ease:      cubic-bezier(.22,.61,.36,1);
+  --ease-out:  cubic-bezier(.16,1,.3,1);
+
+  /* ---- Sombra ---- */
+  --shadow-sm: 0 8px 22px -14px rgba(61,24,34,.4);
+  --shadow:    0 24px 60px -28px rgba(61,24,34,.42);
+  --shadow-lg: 0 40px 90px -40px rgba(61,24,34,.5);
+}
