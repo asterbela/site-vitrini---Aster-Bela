@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Aster Bela">
-  <!-- PLACEHOLDER: substitua por assets/img/logo.png (logo oficial da marca) -->
-  <rect width="400" height="400" rx="72" fill="#d15c68"/>
-  <path fill="#faf5ee" d="M120 78c2 22 7 27 29 29-22 2-27 7-29 29-2-22-7-27-29-29 22-2 27-7 29-29z"/>
-  <text x="200" y="205" fill="#faf5ee" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="118" font-weight="600" text-anchor="middle">Aster</text>
-  <text x="200" y="320" fill="#faf5ee" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="118" font-weight="600" text-anchor="middle">Bela</text>
-</svg>
